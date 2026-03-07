@@ -627,7 +627,7 @@ local refinery_lv = appliances.appliance:new({
     have_usage         = false,
 
     output_stack       = "output",
-    output_stack_size  = 4,
+    output_stack_size  = 4, -- NOTE this is probably the number of items produced
 
     --stoppable_production  = true
     --stoppable_consumption = true
