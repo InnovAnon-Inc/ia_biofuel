@@ -775,6 +775,18 @@ end
         function refinery_lv:cb_on_production(timer_step)
 	    return ia_util.appliances_cb_on_production(self, timer_step)
 	end
+        --function refinery_lv:get_formspec(meta, production_percent, consumption_percent)
+        --    return ia_util.appliances_get_formspec(self, meta, production_percent, consumption_percent)
+        --end
+	--function refinery_lv:recipe_aviable_input(inventory)
+	--    return ia_util.appliances_recipe_aviable_input(self, inventory)
+	--end
+	--function refinery_lv:recipe_inventory_can_put(pos, listname, index, stack, player_name)
+	--    return ia_util.appliances_recipe_inventory_can_put(self, pos, listname, index, stack, player_name)
+	--end
+	--function refinery_lv:recipe_inventory_can_take(pos, listname, index, stack, player_name)
+	--    return ia_util.appliances_recipe_inventory_can_take(self, pos, listname, index, stack, player_name)
+	--end
     end
 
 local refinery_def                            = minetest.registered_nodes['biofuel:refinery']
